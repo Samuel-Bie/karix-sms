@@ -43,7 +43,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "samuelbie\\mpesa\\KarixServiceProvider"
+        "samuelbie\\Karix\\KarixServiceProvider"
       ]
     }
   },
