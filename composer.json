@@ -19,18 +19,19 @@
   ],
   "minimum-stability": "dev",
   "prefer-stable": true,
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/karixtech/karix-php.git"
-    }
-  ],
+
   "require": {
     "php": "^5.5 || ^7.0",
     "ext-curl": "*",
     "guzzlehttp/guzzle": "^6.0",
     "karixtech/karix-php": "2.0.0"
   },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/karixtech/karix-php.git"
+    }
+  ],
   "require-dev": {},
   "autoload": {
     "psr-4": {
