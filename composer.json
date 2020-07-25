@@ -19,7 +19,6 @@
   ],
   "minimum-stability": "dev",
   "prefer-stable": true,
-
   "repositories": [
     {
       "type": "git",
@@ -29,7 +28,7 @@
   "require": {
     "php": "^5.5 || ^7.0",
     "ext-curl": "*",
-    "guzzlehttp/guzzle": "^6.0",
+    "guzzlehttp/guzzle": "^5.3|^6.2|^7.0",
     "karixtech/karix-php": "2.0.0"
   },
   "require-dev": {},
