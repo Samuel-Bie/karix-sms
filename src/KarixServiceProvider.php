@@ -1,5 +1,5 @@
 <?php
-namespace samuelbie\Karix;
+namespace Samuelbie\Karix;
 
 use Illuminate\Support\ServiceProvider;
 

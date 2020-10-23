@@ -14,7 +14,8 @@
     {
       "name": "Samuel Bie",
       "email": "samuelbie@outlook.com",
-      "website": "https://samuel-bie.github.io"
+      "homepage": "https://samuel-bie.github.io",
+      "role": "Software Engineer"
     }
   ],
   "minimum-stability": "dev",
@@ -27,7 +28,7 @@
   "require-dev": {},
   "autoload": {
     "psr-4": {
-      "samuelbie\\Karix\\": "src"
+      "Samuelbie\\Karix\\": "src"
     }
   },
   "autoload-dev": {
@@ -36,7 +37,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "samuelbie\\Karix\\KarixServiceProvider"
+        "Samuelbie\\Karix\\KarixServiceProvider"
       ]
     }
   },

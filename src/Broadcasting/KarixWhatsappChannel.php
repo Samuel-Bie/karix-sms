@@ -1,5 +1,5 @@
 <?php
-namespace samuelbie\Karix\Broadcasting;
+namespace Samuelbie\Karix\Broadcasting;
 
 use Exception;
 use GuzzleHttp\Client;
