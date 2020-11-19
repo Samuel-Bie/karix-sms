@@ -5,7 +5,7 @@
 	git commit -m "Bug fix, and comply with psr-4 standards"
 
 3 - Add Tag
-	git tag 3.0.0
+	git tag 3.1.0
 
 4 - Git push
 	git push --all
