@@ -21,7 +21,6 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
-    "php": "^5.5 || ^7.0",
     "ext-curl": "*",
     "samuelbie/karix-php": "dev-master"
   },
