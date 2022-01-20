@@ -1,6 +1,6 @@
 # Karix Sms and Whatsapp notifications channel for Laravel 6
 
-This package makes it easy to send sms via [Karix.io](karix.io) with Laravel 6.
+This package makes it easy to send sms via [Karix.io](https://karix.io) with Laravel 6 or up.
 
 ## Installation
 
@@ -31,9 +31,9 @@ add your Karix Id and Token to your `config/services.php`:
 Now you can use the channel in your `via()` method inside the notification:
 
 ``` php
-use samuelbie\Karix\Broadcasting\KarixMessage;
-use samuelbie\Karix\Broadcasting\KarixSMSChannel;
-use samuelbie\Karix\Broadcasting\KarixWhatsappChannel;
+use Samuelbie\Karix\Broadcasting\KarixMessage;
+use Samuelbie\Karix\Broadcasting\KarixSMSChannel;
+use Samuelbie\Karix\Broadcasting\KarixWhatsappChannel;
 
 
 class YourNotification extends Notification
