@@ -5,7 +5,7 @@
 	git commit -m "Fix readme"
 
 3 - Add Tag
-	git tag 3.2.1
+	git tag 3.2.2
 
 4 - Git push
 	git push --all
