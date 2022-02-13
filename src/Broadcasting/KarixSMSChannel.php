@@ -1,9 +1,12 @@
 <?php
+
 namespace Samuelbie\Karix\Broadcasting;
 
 use Exception;
+use Monolog\Logger;
 use GuzzleHttp\Client;
 use Swagger\Client\Configuration;
+use Monolog\Handler\StreamHandler;
 use Swagger\Client\Api\MessageApi;
 use Swagger\Client\Model\CreateMessage;
 use Illuminate\Notifications\Notification;
@@ -67,7 +70,9 @@ class KarixSMSChannel
             $result = $apiInstance->sendMessage($message);
             return $result;
         } catch (Exception $e) {
-            echo 'Exception when calling MessageApi->createMessage: ', $e->getMessage(), PHP_EOL;
+            // create a log channel
+            $log = new Logger(config('logging.default'));
+            $log->error('Exception when calling MessageApi->createMessage: Exception when calling MessageApi->createMessage: '. $e->getMessage());
         }
     }
 
