@@ -8,6 +8,7 @@ use GuzzleHttp\Client;
 use Swagger\Client\Configuration;
 use Monolog\Handler\StreamHandler;
 use Swagger\Client\Api\MessageApi;
+use Illuminate\Support\Facades\Log;
 use Swagger\Client\Model\CreateMessage;
 use Illuminate\Notifications\Notification;
 
@@ -71,8 +72,7 @@ class KarixSMSChannel
             return $result;
         } catch (Exception $e) {
             // create a log channel
-            $log = new Logger(config('logging.default'));
-            $log->error('Exception when calling MessageApi->createMessage: Exception when calling MessageApi->createMessage: '. $e->getMessage());
+            Log::error("Exception when calling MessageApi->createMessage: Exception when calling MessageApi->createMessage: ",  $e->getMessage());
         }
     }
 
