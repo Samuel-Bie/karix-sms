@@ -5,7 +5,7 @@
 	git commit -m "Bug fix"
 
 3 - Add Tag
-	git tag 3.2.3
+#	git tag 3.2.4 # we are now updating versions using the composer file
 
 4 - Git push
 	git push --all

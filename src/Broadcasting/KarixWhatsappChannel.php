@@ -3,9 +3,9 @@ namespace Samuelbie\Karix\Broadcasting;
 
 use Exception;
 use GuzzleHttp\Client;
-use Karix\Configuration;
-use Karix\Api\MessageApi;
-use Karix\Model\CreateMessage;
+use Swagger\Client\Configuration;
+use Swagger\Client\Api\MessageApi;
+use Swagger\Client\Model\CreateMessage;
 use Illuminate\Notifications\Notification;
 
 class KarixWhatsappChannel

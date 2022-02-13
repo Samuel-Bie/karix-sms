@@ -2,6 +2,7 @@
   "name": "samuelbie/karix",
   "type": "library",
   "description": "Allow you to use karix sms and whatsapp as custom channel in laravel notifications",
+  "version": "3.2.4",
   "keywords": [
     "Laravel",
     "Karix",

@@ -539,12 +539,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Samuel-Bie/karix-php.git",
-                "reference": "e37ed6884bdd02ede52730a84fb408d824785fbe"
+                "reference": "f86c0a5ea7eb6d454108ee1fe1abd8d3627933e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Samuel-Bie/karix-php/zipball/e37ed6884bdd02ede52730a84fb408d824785fbe",
-                "reference": "e37ed6884bdd02ede52730a84fb408d824785fbe",
+                "url": "https://api.github.com/repos/Samuel-Bie/karix-php/zipball/f86c0a5ea7eb6d454108ee1fe1abd8d3627933e4",
+                "reference": "f86c0a5ea7eb6d454108ee1fe1abd8d3627933e4",
                 "shasum": ""
             },
             "require": {
@@ -563,7 +563,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Karix\\": "lib/"
+                    "Swagger\\Client\\": "lib/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -592,9 +592,9 @@
                 "whatsapp"
             ],
             "support": {
-                "source": "https://github.com/Samuel-Bie/karix-php/tree/2.4.0"
+                "source": "https://github.com/Samuel-Bie/karix-php/tree/2.4.1"
             },
-            "time": "2022-02-13T00:27:11+00:00"
+            "time": "2022-02-13T01:26:57+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
