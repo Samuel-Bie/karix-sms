@@ -539,12 +539,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Samuel-Bie/karix-php.git",
-                "reference": "f86c0a5ea7eb6d454108ee1fe1abd8d3627933e4"
+                "reference": "cea557fbfe9f8486bd2f5b851f0c7b20e97f3950"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Samuel-Bie/karix-php/zipball/f86c0a5ea7eb6d454108ee1fe1abd8d3627933e4",
-                "reference": "f86c0a5ea7eb6d454108ee1fe1abd8d3627933e4",
+                "url": "https://api.github.com/repos/Samuel-Bie/karix-php/zipball/cea557fbfe9f8486bd2f5b851f0c7b20e97f3950",
+                "reference": "cea557fbfe9f8486bd2f5b851f0c7b20e97f3950",
                 "shasum": ""
             },
             "require": {
@@ -592,9 +592,9 @@
                 "whatsapp"
             ],
             "support": {
-                "source": "https://github.com/Samuel-Bie/karix-php/tree/2.4.1"
+                "source": "https://github.com/Samuel-Bie/karix-php/tree/2.4.2"
             },
-            "time": "2022-02-13T01:26:57+00:00"
+            "time": "2022-02-13T07:34:22+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
