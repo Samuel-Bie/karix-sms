@@ -1,47 +1,47 @@
 {
-  "name": "samuelbie/karix",
-  "type": "library",
-  "description": "Allow you to use karix sms and whatsapp as custom channel in laravel notifications",
-  "version": "3.2.4",
-  "keywords": [
-    "Laravel",
-    "Karix",
-    "sms",
-    "whatsapp",
-    "PHP"
-  ],
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Samuel Bie",
-      "email": "samuelbie@outlook.com",
-      "homepage": "https://samuel-bie.github.io",
-      "role": "Software Engineer"
+    "name": "samuelbie/karix",
+    "type": "library",
+    "description": "Allow you to use karix sms and whatsapp as custom channel in laravel notifications",
+    "version": "3.2.4",
+    "keywords": [
+        "Laravel",
+        "Karix",
+        "sms",
+        "whatsapp",
+        "PHP"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Samuel Bie",
+            "email": "samuelbie@outlook.com",
+            "homepage": "https://samuel-bie.github.io",
+            "role": "Software Engineer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "ext-curl": "*",
+        "samuelbie/karix-php": "dev-master"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "Samuelbie\\Karix\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {}
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Samuelbie\\Karix\\KarixServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
     }
-  ],
-  "minimum-stability": "dev",
-  "prefer-stable": true,
-  "require": {
-    "ext-curl": "*",
-    "samuelbie/karix-php": "dev-master"
-  },
-  "require-dev": {},
-  "autoload": {
-    "psr-4": {
-      "Samuelbie\\Karix\\": "src"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {}
-  },
-  "extra": {
-    "laravel": {
-      "providers": [
-        "Samuelbie\\Karix\\KarixServiceProvider"
-      ]
-    }
-  },
-  "config": {
-    "sort-packages": true
-  }
 }
