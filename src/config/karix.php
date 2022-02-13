@@ -37,5 +37,16 @@ return [
     | Here you may specify the Whatsapp Sender
     |
     */
-    'whatsapp_from' => env('KARIX_WHATSAPP')
+    'whatsapp_from' => env('KARIX_WHATSAPP'),
+
+
+    /*
+    |--------------------------------------------------------------------------
+    |--------------------------------------------------------------------------
+    | Karix api_version
+    |
+    | Here you may specify the api_version version
+    |
+    */
+    'api_version' => env('API_VERSION', '2.0')
 ];

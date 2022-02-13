@@ -66,7 +66,7 @@ class KarixSMSChannel
     {
         $apiInstance = new MessageApi(new Client(), $this->config);
         try {
-            $result = $apiInstance->sendMessage($message);
+            $result = $apiInstance->sendMessage(config('karix.api_version'),$message);
             return $result;
         } catch (Exception $e) {
             // create a log channel

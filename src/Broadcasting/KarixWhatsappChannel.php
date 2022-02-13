@@ -1,10 +1,12 @@
 <?php
+
 namespace Samuelbie\Karix\Broadcasting;
 
 use Exception;
 use GuzzleHttp\Client;
 use Swagger\Client\Configuration;
 use Swagger\Client\Api\MessageApi;
+use Illuminate\Support\Facades\Log;
 use Swagger\Client\Model\CreateMessage;
 use Illuminate\Notifications\Notification;
 
@@ -67,11 +69,12 @@ class KarixWhatsappChannel
         $apiInstance = new MessageApi(new Client(), $this->config);
 
         try {
-            $result = $apiInstance->sendMessage($message);
+            $result = $apiInstance->sendMessage(config('karix.api_version'), $message);
 
             return $result;
         } catch (Exception $e) {
-            echo 'Exception when calling MessageApi->createMessage: ', $e->getMessage(), PHP_EOL;
+            // create a log channel
+            Log::error("Exception when calling MessageApi->createMessage: Exception when calling MessageApi->createMessage: " .  $e->getMessage());
         }
     }
     protected function setConfig()
